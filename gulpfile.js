@@ -9,6 +9,7 @@ m.gulp.task('default', function(cb) {
         'clean',
         [
             'index',
+            'foundation-partials',
             'sass',
             'scripts',
             'templates'

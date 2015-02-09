@@ -3,5 +3,29 @@ name: home
 url: /
 ---
 
-<h1>Welcome to Foundation for Apps!</h1>
+<h1>Welcome to Foundation for Apps!!!</h1>
 <p class="lead">This is version <strong>1.0.2 Matterhorn</strong>.</p>
+
+<zf-offcanvas id="menu" position="left">
+    <a zf-close="" class="close-button">×</a>
+
+</zf-offcanvas>
+<a zf-open="menu" class="button">Open Off-canvas</a>
+
+<ul class="dark menu-bar">
+    <li><a href="#">Dark</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Bar</a></li>
+</ul>
+<ul class="primary menu-bar">
+    <li><a href="#">Primary</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Bar</a></li>
+</ul>
+
+<div zf-panel="" zf-swipe-close="right" class="docs-example-panel" id="example-swipe-panel-1" position="right">
+    <a href="#" zf-close="" class="close-button">×</a>
+    <p>This is a panel that closes when you swipe right.</p>
+</div>
+
+<a class="button" zf-toggle="example-swipe-panel-1">Basic Swipe-to-Close Panel</a>

@@ -5,6 +5,7 @@ var vendors = [
     'bower_components/fastclick/lib/fastclick.js',
     'bower_components/viewport-units-buggyfill/viewport-units-buggyfill.js',
     'bower_components/tether/tether.js',
+    'bower_components/hammerjs/hammer.js',
 
     /* angularjs */
     'bower_components/angular/angular.js',
